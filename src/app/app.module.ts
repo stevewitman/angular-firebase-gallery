@@ -7,6 +7,7 @@ import { ImageDetailComponent } from './image-detail/image-detail.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
 import { UploadComponent } from './upload/upload.component';
+import { Router } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { UploadComponent } from './upload/upload.component';
     UploadComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    Router
   ],
   providers: [],
   bootstrap: [AppComponent]
